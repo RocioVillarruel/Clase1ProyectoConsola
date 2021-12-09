@@ -9,6 +9,13 @@ public class Person {
         {
             
         }
+        public Person(string name, string surname, string age, string dni, string marstatus){
+            Name = name;
+            Surname= surname;
+            Age = age;
+            DNI = dni;
+            Marstatus = marstatus;
+        }
 
         public string FullName()
         {

@@ -1,12 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
-var person = new Person();
 
-person.Name="Isabella";
-person.Surname="Ponce";
-person.Age="21";
-person.DNI="123444";
-person.Marstatus="Soltera";
+var person2 = new Person("Gonzalo", "Perez", "25", "2345654","Casado");
 
-Console.WriteLine(person.FullName());
+Console.WriteLine(person2.FullName());
